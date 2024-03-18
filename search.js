@@ -2,14 +2,13 @@ const glob = require("glob")
 const fs = require("fs");
 const colors = require("./color.js");
 
-const SRC = './src/';
-const EXCLUDE_FILES = ['colors.scss', 'color-new.scss'];
+const SRC = '/src';
+const EXCLUDE_FILES = ['colors.scss'];
 
 console.log("Start!")
 
 const res = {
     "notUsed": [],
-    "dark": [],
     "colors": {},
 }
 // options is optional
