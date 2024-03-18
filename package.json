@@ -1,0 +1,16 @@
+{
+  "name": "search-colors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"search": "node search.js",
+  	"remove": "node remove.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksey Romanov",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^8.0.3"
+  }
+}
