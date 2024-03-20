@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+  	"start": "npm run extract && npm run search && npm run remove",
   	"search": "node search.js",
   	"remove": "node remove.js",
+  	"extract": "node extract-color.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Aleksey Romanov",
